@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 2109SampleApp
+  host: 2109SampleApp-123
+  disk_quota: 1024M
+  services:
+  - 2109SampleApp-cloudantNoSQLDB
